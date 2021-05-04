@@ -27,7 +27,7 @@ async def addchannel(client, message):
         await USER.send_message(message.chat.id,"I joined here as you requested")
     except UserAlreadyParticipant:
         await message.reply_text(
-            "<b>@VCPlayRobot already in your chat</b>",
+            "<b>@VCPlayerbot already in your chat</b>",
         )
         pass
     except Exception as e:
@@ -38,7 +38,7 @@ async def addchannel(client, message):
         )
         return
     await message.reply_text(
-            "<b>@VCPlayRobot userbot joined your chat</b>",
+            "<b>@VCPlayerbot userbot joined your chat</b>",
         )
     
 @USER.on_message(filters.group & filters.command(["userbotleave"]))

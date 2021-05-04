@@ -406,7 +406,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "@VCPlayRobot"
+        user.first_name =  "@VCPlayerbot"
     usar = user
     wew = usar.id
     try:
@@ -427,7 +427,7 @@ async def play(_, message: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message.chat.id,"I joined this group for playing music in VC")
                               await lel.edit(
-                                  "<b>@VCPlayRobot userbot joined your chat</b>",
+                                  "<b>@VCPlayerbot userbot joined your chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -436,7 +436,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @VCPlayRoBot to your Group and try again</b>",
+                                  "\n\nOr manually add @VCPlayerBot to your Group and try again</b>",
                               )
                               pass
     try:
@@ -554,7 +554,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "VCPlayBot"
+        user.first_name =  "VCPlayerBot"
     usar = user
     wew = usar.id
     try:
@@ -584,7 +584,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @VCPlayRoBot to your Group and try again</b>",
+                                  "\n\nOr manually add @VCPlayerbot to your Group and try again</b>",
                               )
                               pass
     try:
@@ -592,7 +592,7 @@ async def deezer(client: Client, message_: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i>Looks like @VCPlayRoBot Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
+            f"<i>Looks like @VCPlayerbot Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
         )
         return                            
     requested_by = message_.from_user.first_name   
@@ -684,7 +684,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "VCPlayBot"
+        user.first_name =  "VCPlayerBot"
     usar = user
     wew = usar.id
     try:
@@ -705,7 +705,7 @@ async def jiosaavn(client: Client, message_: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message_.chat.id,"I joined this group for playing music in VC")
                               await lel.edit(
-                                  "<b>@VCPlayRobot helper userbot joined your chat</b>",
+                                  "<b>@VCPlayerbot helper userbot joined your chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -714,7 +714,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @VCPlayRobot to your Group and try again</b>",
+                                  "\n\nOr manually add @VCPlayerbot to your Group and try again</b>",
                               )
                               pass
     try:
@@ -722,7 +722,7 @@ async def jiosaavn(client: Client, message_: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            "<i> @VCPlayRobot helper Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
+            "<i> @VCPlayerbot helper Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
         )
         return     
     requested_by = message_.from_user.first_name
@@ -747,7 +747,7 @@ async def jiosaavn(client: Client, message_: Message):
             "Found Literally Nothing!, You Should Work On Your English."
         )
         print(str(e))
-        is_playing = False
+        is_playing = False 
         return
     keyboard = InlineKeyboardMarkup(
          [   
@@ -758,7 +758,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="Join Updates Channel",
-                   url='https://t.me/LaylaList')
+                   url='https://t.me/godboysbots')
              ],
              [       
                InlineKeyboardButton(

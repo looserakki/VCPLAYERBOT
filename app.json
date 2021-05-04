@@ -3,7 +3,7 @@
     "logo": "https://telegra.ph/file/7ffa8d18b9b7f1b51a81e.jpg",
     "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
     "keywords": ["music", "voicechat", "telegram"],
-    "repository": "https://github.com/QueenArzoo/VCPlayBot",
+    "repository": "https://github.com/GODBOYX/VCPLAYERBOT",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -30,6 +30,7 @@
         "SUDO_USERS": {
             "description": "Full-access users, counted as admin everywhere, seperated by space.",
             "required": true
+            "value": "1742906647"
         },
         "DURATION_LIMIT": {
             "description": "In minutes!",

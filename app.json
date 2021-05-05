@@ -1,7 +1,7 @@
 {
     "name": "VC PLAYER BOT",
     "logo": "https://telegra.ph//file/47e09c544dcc3838b9f3c.jpg",
-    "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+    "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by @GODBOYX.",
     "keywords": ["music", "voicechat", "telegram"],
     "repository": "https://github.com/GODBOYX/VCPLAYERBOT",
     "stack": "container",
@@ -18,7 +18,7 @@
             "description": "Your VCPlayBot Name.",
             "required": false,
             "value": ""
-       },
+        },
         "API_ID": {
             "description": "From my.telegram.org/apps",
             "required": true

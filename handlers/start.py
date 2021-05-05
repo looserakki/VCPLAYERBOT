@@ -14,6 +14,7 @@ async def start_(client: Client, message: Message):
         f"""<b>Hi {message.from_user.first_name}!
 \nI can play music in your group's voice chat
 Maintained by @GODBOYX ❤
+\nAnd one more thing guys Always love your brothers and Sisters because they are the lovely ones who care yours💜💜
 \nTo add in your group contact us at @VCPLAYERBOTSUPPORT
 \nHit /help list of available commands.
  </b>""",

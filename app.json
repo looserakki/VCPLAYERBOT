@@ -1,35 +1,35 @@
 {
     "name": "VC PLAYER BOT",
     "logo": "https://telegra.ph//file/47e09c544dcc3838b9f3c.jpg",
-    "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by @GODBOYX.",
+    "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
     "keywords": ["music", "voicechat", "telegram"],
     "repository": "https://github.com/GODBOYX/VCPLAYERBOT",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
             "description": "Session string (pyrogram)",
-            "required": true,
+            "required": true
         },
         "BOT_TOKEN": {
             "description": "From @BotFather",
-            "required": true,
+            "required": true
         },
         "BOT_NAME": {
             "description": "Your VCPlayBot Name.",
             "required": false,
             "value": ""
-        },
+       },
         "API_ID": {
             "description": "From my.telegram.org/apps",
-            "required": true,
+            "required": true
         },
         "API_HASH": {
             "description": "From my.telegram.org/apps",
-            "required": true,
+            "required": true
         },
         "SUDO_USERS": {
             "description": "Full-access users, counted as admin everywhere, seperated by space.",
-            "required": true,
+            "required": true
         },
         "DURATION_LIMIT": {
             "description": "In minutes!",

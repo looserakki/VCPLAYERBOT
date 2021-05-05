@@ -20,7 +20,7 @@ async def addchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "VCPlaybot"
+        user.first_name =  "VCPlayerbot"
 
     try:
         await USER.join_chat(invitelink)
